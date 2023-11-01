@@ -1,0 +1,14 @@
+function gokverslaving (){
+let rand = Math.round(Math.random()*100)
+let rand2 = Math.round(Math.random()*100)
+if (rand > rand2) {
+    console.log(rand + " is meer dan " + rand2)
+} else if (rand2 > rand) {
+    console.log(rand2 + " is meer dan " + rand)
+} else {
+    console.log("wajoooooooo, het is allebei " + rand)
+}
+}
+gokverslaving();
+
+
